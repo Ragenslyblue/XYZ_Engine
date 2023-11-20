@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* StepTwo.css */
+
+.form-group {
+  margin-bottom: 10px; /* Adjust the spacing between form groups */
+}
+
+.form-label {
+  font-weight: bold; /* Make the label text bold */
+  margin-right: 10px; /* Adjust the spacing between label and input/span */
+  display: inline-block; /* Align the label and input/span in the same line */
+}
+.step_one {
+  width: 40%;
+  background: #c1c1c138;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 45px;
+  margin-top: 80px;
+}
+.step_one_result{
+  width: 40%;
+  background: #c1c1c138;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 80px;
+}
+input[type="text"] {
+  height: 45px;
+  border: 1px solid #c7bebe;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 14px;
+  padding-left: 15px;
+}
+input[type="number"] {
+  height: 45px;
+  border: 1px solid #c7bebe;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 14px;
+  padding-left: 15px;
+}
+button {
+  background: red;
+  outline: none;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.step_one h2{
+  margin-bottom: 10px;
+}
+.step_one span {
+  font-weight: 600;
+  margin-left: 8px;
+}
+input[type="file"] {
+  margin-top: 13px;
+  margin-bottom: 11px;
+}
+
+
+table {
+  width: 100%; /* Make the table take up 100% of the container width */
+  border-collapse: collapse; /* Collapse borders between table cells */
+  margin-top: 20px; /* Add margin to the top of the table */
+}
+
+thead {
+  background-color: #f2f2f2; /* Set background color for the table header */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Add border to table cells */
+  padding: 8px; /* Add padding to the cells */
+  text-align: left; /* Align text to the left in cells */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Set background color for even rows */
+}
+
+tr:hover {
+  background-color: #f5f5f5; /* Change background color on hover */
+}
+button.disabled {
+  background: lightgrey;
+}
+.downloadPdf {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+/* Add this to your stylesheet */
+.pdf-layout {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px; /* Adjust the padding as needed */
+  flex-direction: column;
+}
+
+.pdf-layout table {
+  width: 100%;
+}
+.pdf-layout h2 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.downloadPdf svg {
+  color: red;
+  font-size: 23px;
+  cursor: pointer;
+}
